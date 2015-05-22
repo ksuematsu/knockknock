@@ -1,5 +1,5 @@
 require "knockknock/engine"
-require "active_support/all"
+require "active_support"
 
 module Knockknock
   def self.knock_clock
