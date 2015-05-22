@@ -1,3 +1,9 @@
 = Knockknock
 
+===========================================
+
+this is not just a clock
+
+===========================================
+
 This project rocks and uses MIT-LICENSE.

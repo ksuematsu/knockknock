@@ -7,11 +7,11 @@ require "knockknock/version"
 Gem::Specification.new do |s|
   s.name        = "knockknock"
   s.version     = Knockknock::VERSION
-  s.authors     = ["幻影集団"]
-  s.email       = ["green0014jp@yahoo.co.jp"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Knockknock."
-  s.description = "TODO: Description of Knockknock."
+  s.authors     = ["Phantom United"]
+  s.email       = ["ksuematsu68@gmail.com"]
+  s.homepage    = "https://github.com/ksuematsu/knockknock"
+  s.summary     = "TNJC(This is Not Just a Clock)"
+  s.description = "knockknock is a just GORGEOUS clock for ruby 2.1.3."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -20,4 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.1"
 
   s.add_development_dependency "sqlite3"
+  s.add_dependency "active_support/all"
+  s.add_dependency "date"
+
 end
